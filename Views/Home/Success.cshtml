@@ -1,0 +1,14 @@
+@{
+    ViewData["Title"] = "Display User";
+}
+
+@model User
+
+
+<div class="text-center">
+    <h1 class="display-4">Successfully Registered!</h1>
+    <h2>Info:</h2>
+    <p>@Model.FirstName @Model.LastName</p>
+    <p>@Model.Email</p>
+    <p>@Model.Password</p>
+</div>
